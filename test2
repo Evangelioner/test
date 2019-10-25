@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script>
+
+function fibNum(n) {
+return n <= 1 ? n : fibNum(n - 1) + fibNum(n - 2);
+}
+let n = +prompt('n');
+
+alert (fibNum(n));
+</script>
+  </head>
+
+  <body>
+   
+  </body>
+
+</html>
