@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <script>
+    let a = prompt('Введите первое слово');
+   let b = prompt('Введите второе слово');
+   let c= a.toLowerCase();
+    let d = b.split('').reverse().join('').toLowerCase();
+  
+   if (c === d) {
+     alert('Палиморф');
+    }
+    else { alert('Не палиморф');
+    };
+    </script>
+  </head>
+
+  <body>
+  
+  </body>
+
+</html>
