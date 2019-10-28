@@ -4,7 +4,7 @@
   <head>
    
     <script>
-      let x1 = +prompt('x1');
+let x1 = +prompt('x1');
 let x2 = +prompt('x2');
 let x3 = +prompt('x3');
 let x4 = +prompt('x4');
