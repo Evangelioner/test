@@ -33,8 +33,8 @@ let k2;
    return k2 = ((y4 - y3)) / ((x4 - x3));
 };
 };
-kk();
-kkk();
+angleCoef1();
+angleCoef2();
 if (k1 == k2) {
   alert('отрезки параллельны');
 }  else   { 
