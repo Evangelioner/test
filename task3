@@ -19,14 +19,14 @@ let y =((y3-y4)*x-(x3*y4-x4*y3))/(x4-x3);
  } else  {
 let k1;
 let k2;
-   function kk() {
+   function angleCoef1() {
  if (y2 == y1) {
  return k1 = 0; 
 } else {
   return k1 = ((y2 - y1) / (x2 - x1));
 };
 };
-   function kkk() {
+   function angleCoef2() {
  if (y4 == y3) {
   return k2 = 0;
 } else {
