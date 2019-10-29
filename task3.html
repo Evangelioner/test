@@ -1,0 +1,50 @@
+<html>
+
+  <head>
+
+    <script>
+let x1 = +prompt('x1');
+let x2 = +prompt('x2');
+let x3 = +prompt('x3');
+let x4 = +prompt('x4');
+let y1 = +prompt('y1');
+let y2 = +prompt('y2');
+let y3 = +prompt('y3');
+let y4 = +prompt('y4');
+let x = ((x1*y2-x2*y1)*(x4-x3)-(x3*y4-x4*y3)*(x2-x1))/((y1-y2)*(x4-x3)-(y3-y4)*(x2-x1));
+let y =((y3-y4)*x-(x3*y4-x4*y3))/(x4-x3);
+ if ((((x1<=x)&&(x2>=x)&&(x3<=x)&&(x4 >=x))||((y1<=y)&&(y2>=y)&&(y3<=y) &&(y4>=y)))) {
+   alert('Отрезки пересекаются');
+ } else  {
+let k1;
+let k2;
+   function angleCoef1() {
+ if (y2 == y1) {
+ return k1 = 0;
+} else {
+  return k1 = ((y2 - y1) / (x2 - x1));
+};
+};
+   function angleCoef2() {
+ if (y4 == y3) {
+  return k2 = 0;
+} else {
+   return k2 = ((y4 - y3)) / ((x4 - x3));
+};
+};
+angleCoef1();
+angleCoef2();
+if (k1 == k2) {
+  alert('Отрезки параллельны');
+}  else   {
+  alert ('Отрезки не пересекаются');
+};
+ };
+    </script>
+  </head>
+
+  <body>
+
+  </body>
+
+</html>
