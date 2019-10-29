@@ -1,0 +1,24 @@
+<html>
+
+<head>
+
+  <script>
+  let n = +prompt('Введите n');
+  let m = +prompt('Введите m');
+  function nod(n,m) {
+return (m == 0) ? n : nod(m, n % m);
+};
+ function nok() {
+  return n*m/nod(n,m);
+  };
+    alert('НОК = ' + nok());
+    alert('НОД = ' + nod(n,m));
+  </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
