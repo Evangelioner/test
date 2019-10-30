@@ -6,7 +6,7 @@
     let n = +prompt('Введите n');
   for (let i = 1; i <= n; i++) {
     function fibNum(i) {
-        return i < = 1 ? i : fibNum(i - 1) + fibNum(i - 2);
+        return (i <= 1) ? i : fibNum(i - 1) + fibNum(i - 2);
 };
   if (fibNum(i) <= n) {
   alert(fibNum(i));
