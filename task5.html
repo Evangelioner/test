@@ -3,11 +3,10 @@
   <head>
 
     <script>
-  let a = prompt('Введите первое слово');
-  let b = prompt('Введите второе слово');
-  let c= a.toLowerCase();
-  let d = b.split('').reverse().join('').toLowerCase();
-    (c === d) ? alert('Палиндром') : alert('Не палиндром');
+  let a = prompt('Введите слово');
+  a.toLowerCase();
+  let b = a.split('').reverse().join('');
+    (a == b) ? alert('Палиндром') : alert('Не палиндром');
 
     </script>
 
